@@ -16,6 +16,7 @@ Templight is a Clang-based tool to profile the time and memory consumption of te
 - [Using the Templight Debugger](#using-the-templight-debugger)
 - [Using Blacklists](#using-blacklists)
 - [Inspecting the profiles](#inspecting-the-profiles)
+- [Docker](#docker)
 - [Credits](#credits)
 
 ## Templight Profiler
@@ -291,6 +292,9 @@ Any contribution or work towards applications to help inspect, analyse or visual
 The [Templar application](https://github.com/schulmar/Templar) is one application that allows the user to open and inspect the traces produced by Templight.
 
 The [Metashell](https://github.com/sabel83/metashell) project is another application that provides inspection facilities for templight trace files. It is a whole different application altogether (not strictly just a trace inspector), but invokes templight under the hood to generate the template instantiation tree that it allows you to walk, along with the AST.
+
+## Docker
+Docker image with Templight and Templight-Tools:  [mateuszjuda1/templight](https://hub.docker.com/r/mateuszjuda1/templight/).
 
 ## Credits
 
